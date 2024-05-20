@@ -1,0 +1,90 @@
+/* Use NLM fonts and main header throughout all of PUI*/
+@font-face {
+    font-family: "Roboto", "Helvetica Neue", Arial, Tahoma;
+    }
+
+body {
+	font-size:16px;
+}
+
+body, h1, h2, h3, .h1, .h2, .h3 {
+	font-family: "Roboto", "Helvetica Neue", Arial, Tahoma;
+}
+
+/* Use official NLM colors in the header, throughout all of PUI*/
+#header {
+	background-color: #326295;
+}
+
+
+#header .h1, #header .h1 a {
+	color: white;
+	font-weight:normal;
+}
+
+/* Adjustments to header logo placement */
+#header .logo {
+    float: left;
+    height: 90px;
+   }
+   
+
+/* NLM footer */
+footer .social_media img {
+    height: 35px; }
+
+footer {
+    display: block;
+    padding-bottom: 3em;
+}
+
+.panel-footer ul.footer-list {
+    list-style-type: none;
+    float: left;
+    text-align: left;
+}
+
+/* Style custom NLM footer content*/
+.insertfooter {
+    margin-top: 4em;
+    background-color: #326295;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.container {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.container {
+    max-width: 1375px;
+}
+
+.pt-5, .py-5 {
+    padding-top: 3rem !important;
+}
+
+.mt-3, .my-3 {
+    margin-top: 1rem !important;
+}
+
+.img-fluid {
+    background-color: whitesmoke;
+}
+
+/* GWU ASpace Make breadcrumbs more obvious to users */
+nav[aria-label="hierarchical navigation"] ul.breadcrumb { /* colored box */
+	background-color:#d2fba4;
+}
+nav[aria-label="hierarchical navigation"] ul.breadcrumb:before{ /* label before breadcrumb */
+	content: "This record is located within:";
+}
+.breadcrumb>li+li:before { /* two carrots between breadcrumb levels */
+  content: "\003e\00a0\003e\00a0";
+
+
+    
+    
