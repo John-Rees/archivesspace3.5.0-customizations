@@ -13,7 +13,7 @@
 ###
 #
 ## Set your database name and credentials here.  Example:
-AppConfig[:db_url] = "jdbc:mysql://127.0.0.1:3306/archivesspace?user=as&password=as123&useUnicode=true&characterEncoding=UTF-8"
+AppConfig[:db_url] = "jdbc:mysql://127.0.0.1:3306/archivesspace?user=###&password=###&useUnicode=true&characterEncoding=UTF-8"
 ##
 #AppConfig[:db_url] = proc { AppConfig.demo_db_url }
 #
@@ -441,7 +441,7 @@ AppConfig[:record_inheritance] = {
 #
 #AppConfig[:pui_search_results_page_size] = 10
 AppConfig[:pui_branding_img] = '/assets/images/NLM_White-fa2.png'
-AppConfig[:pui_branding_img_alt_text] = 'Back to History of Medicine Findng Aids'
+AppConfig[:pui_branding_img_alt_text] = 'Back to History of Medicine Finding Aids'
 #
 #AppConfig[:frontend_branding_img] = 'archivesspace/ArchivesSpaceLogo.svg'
 #AppConfig[:frontend_branding_img_alt_text] = 'ArchivesSpace - a community served by Lyrasis.'
