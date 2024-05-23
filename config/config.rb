@@ -13,7 +13,7 @@
 ###
 #
 ## Set your database name and credentials here.  Example:
-AppConfig[:db_url] = "jdbc:mysql://127.0.0.1:3306/archivesspace?user=###&password=###&useUnicode=true&characterEncoding=UTF-8"
+AppConfig[:db_url] = "jdbc:mysql://127.0.0.1:3306/archivesspace?user=as&password=as123&useUnicode=true&characterEncoding=UTF-8"
 ##
 #AppConfig[:db_url] = proc { AppConfig.demo_db_url }
 #
@@ -86,7 +86,7 @@ AppConfig[:backend_url] = "http://localhost:8087"
 ## here: https://solr.apache.org/guide/solr/latest/query-guide/dismax-query-parser.html
 ## Configuring search operator to be AND by default - ANW-427
 #AppConfig[:solr_params] = { 'q.op' => 'AND' }
-AppConfig[:solr_verify_checksums] = false
+#AppConfig[:solr_verify_checksums] = true
 #
 ## Set the application's language (see the .yml files in
 ## https://github.com/archivesspace/archivesspace/tree/master/common/locales for
